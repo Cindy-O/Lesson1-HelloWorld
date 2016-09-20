@@ -21,5 +21,10 @@ namespace Lesson1_HelloWorld
         {
 
         }
+
+        private void btnEnglish_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
