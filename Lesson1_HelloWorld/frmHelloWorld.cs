@@ -24,7 +24,30 @@ namespace Lesson1_HelloWorld
 
         private void btnEnglish_Click(object sender, EventArgs e)
         {
+            //dsplay message in the label
+            lblMessage.Text = "Hello, World";
+            //lblMessage.TextAlign = ContentAlignment.MiddleCenter;
+        }
 
+        private void btnSpanish_Click(object sender, EventArgs e)
+        {
+            lblMessage.Text = "Hola, Mundo";
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            lblMessage.Text = String.Empty;
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnPrint_Click(object sender, EventArgs e)
+        {
+            //previews form
+            printForm1.Print();
         }
     }
 }
